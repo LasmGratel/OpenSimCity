@@ -1,0 +1,9 @@
+{
+    "name": "$$$",
+    "requirements": [
+        {
+            "name": "education",
+            "level": 2
+        }
+    ]
+}
