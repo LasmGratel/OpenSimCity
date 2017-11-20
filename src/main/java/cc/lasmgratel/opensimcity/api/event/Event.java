@@ -1,7 +1,7 @@
 package cc.lasmgratel.opensimcity.api.event;
 
 public class Event {
-    private Result result;
+    private Result result = new Result();
 
     public Result getResult() {
         return result;

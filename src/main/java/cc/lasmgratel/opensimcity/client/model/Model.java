@@ -22,4 +22,19 @@ public class Model extends RegistryEntry.Impl<Model> implements RenderableProvid
     public void getRenderables(Array<Renderable> renderables, Pool<Renderable> pool) {
         gdxModel.getRenderables(renderables, pool);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Model model = (Model) o;
+
+        return gdxModel != null ? gdxModel.equals(model.gdxModel) : model.gdxModel == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return gdxModel != null ? gdxModel.hashCode() : 0;
+    }
 }
