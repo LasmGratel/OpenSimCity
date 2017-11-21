@@ -1,0 +1,8 @@
+{
+    "name": "growable",
+    "type": "object",
+    "default": {
+        "value": false,
+        "next": ""
+    }
+}

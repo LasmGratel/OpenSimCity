@@ -3,6 +3,10 @@ package cc.lasmgratel.opensimcity.api.event.client;
 import cc.lasmgratel.opensimcity.api.event.Event;
 import com.badlogic.gdx.Input;
 
+/**
+ * Key event fired by {@link com.badlogic.gdx.InputProcessor}.
+ * @see com.badlogic.gdx.InputProcessor
+ */
 public class KeyEvent extends Event {
     /**
      * Defined in {@link Input.Keys}
@@ -17,18 +21,27 @@ public class KeyEvent extends Event {
         return keycode;
     }
 
+    /**
+     * @see com.badlogic.gdx.InputProcessor#keyDown(int)
+     */
     public static class Down extends KeyEvent {
         public Down(int keycode) {
             super(keycode);
         }
     }
 
+    /**
+     * @see com.badlogic.gdx.InputProcessor#keyUp(int)
+     */
     public static class Up extends KeyEvent {
         public Up(int keycode) {
             super(keycode);
         }
     }
 
+    /**
+     * @see com.badlogic.gdx.InputProcessor#keyTyped(char)
+     */
     public static class Type extends KeyEvent {
         public Type(char character) {
             super(character);

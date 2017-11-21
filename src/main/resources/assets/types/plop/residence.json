@@ -1,0 +1,5 @@
+{
+    "name": "residence",
+    "type": "plop",
+    "provides": ["population", "rate"]
+}

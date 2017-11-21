@@ -1,0 +1,11 @@
+{
+    "name": "example_department",
+    "type": "residence",
+    "size": [10,10],
+    "rate": 2,
+    "population": 200,
+    "growable": {
+        "value": true,
+        "next": "example_vanilla"
+    }
+}

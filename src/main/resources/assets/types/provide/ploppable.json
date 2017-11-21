@@ -1,0 +1,5 @@
+{
+    "name": "ploppable",
+    "type": "bool",
+    "default": true
+}

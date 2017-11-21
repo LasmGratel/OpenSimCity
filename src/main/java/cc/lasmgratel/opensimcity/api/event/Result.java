@@ -2,6 +2,9 @@ package cc.lasmgratel.opensimcity.api.event;
 
 import cc.lasmgratel.opensimcity.api.ingredient.SimpleIngredientEntry;
 
+/**
+ * An event's result with ingredients.
+ */
 public class Result extends SimpleIngredientEntry {
     private ResultType resultType = ResultType.PASS;
 

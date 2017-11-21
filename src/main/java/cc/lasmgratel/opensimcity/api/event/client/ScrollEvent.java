@@ -2,6 +2,10 @@ package cc.lasmgratel.opensimcity.api.event.client;
 
 import cc.lasmgratel.opensimcity.api.event.Event;
 
+/**
+ * Scroll event fired by {@link com.badlogic.gdx.InputProcessor#scrolled(int)}.
+ * @see com.badlogic.gdx.InputProcessor
+ */
 public class ScrollEvent extends Event {
     private final int amount;
 

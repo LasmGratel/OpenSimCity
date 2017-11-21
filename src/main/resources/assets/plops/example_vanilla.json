@@ -1,9 +1,7 @@
 {
     "name": "example_vanilla",
-    "growable": true,
     "type": "residence",
-    "xSize": 10,
-    "ySize": 10,
-    "capacity": 200,
-    "maxRate": "$$$"
+    "size": [10,10],
+    "rate": 3,
+    "population": 200
 }

@@ -4,6 +4,10 @@ import cc.lasmgratel.opensimcity.api.event.Event;
 import cc.lasmgratel.opensimcity.common.util.registry.Registry;
 import cc.lasmgratel.opensimcity.common.util.registry.RegistryEntry;
 
+/**
+ * Registry event fired when plugin is called to register their extra items.
+ * @param <T> type of registry entry
+ */
 public class RegistryEvent<T extends RegistryEntry<T>> extends Event {
     private final Registry<T> registry;
     private final Class<T> registryClass;

@@ -1,0 +1,5 @@
+{
+    "name": "plop",
+    "type": "_EMPTY",
+    "provides": ["size", "ploppable"]
+}

@@ -1,0 +1,5 @@
+{
+    "name": "building",
+    "type": "plop",
+    "provides": ["growable"]
+}

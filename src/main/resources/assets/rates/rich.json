@@ -1,9 +1,15 @@
 {
-    "name": "$$$",
+    "name": "rich",
     "requirements": [
         {
             "name": "education",
-            "level": 2
+            "value": "high"
+        }
+    ],
+    "provides": [
+        {
+            "name": "education",
+            "value": 2
         }
     ]
 }
